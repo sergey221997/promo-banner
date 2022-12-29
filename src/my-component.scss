@@ -22,3 +22,52 @@
     max-width: 80vw;
     margin: auto;
 }
+
+.promotion-banner {
+    background-image: url(./EwsYCR-XAAcF925.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+
+    &-content {
+        padding: 3rem;
+        margin: auto;
+        width: 90%;
+        text-align: center;
+
+        .title {
+            padding-bottom: 2rem;
+            font-size: 1rem;
+            color: var(--color-white);
+
+            span {
+                color: #123a69;
+            }
+
+            @media (max-width:900px) {
+                font-size: .8rem;
+            }
+
+            @media (max-width:700px) {
+                font-size: .6rem;
+                width: 100%;
+            }
+        }
+
+        .button {
+            border-radius: 7px;
+            padding: .5rem 2rem;
+            background-color: var(--color-button);
+            color: var(--color-white);
+
+            &:hover {
+                background-color: var(--color-hover-button);
+                color: white;
+            }
+
+            @media (max-width:900px) {
+                padding: .4rem 1.8rem;
+            }
+        }
+    }
+}
