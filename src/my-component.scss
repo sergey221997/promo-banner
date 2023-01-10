@@ -35,7 +35,7 @@
         width: 90%;
         text-align: center;
 
-        .title {
+        &-title {
             padding-bottom: 2rem;
             font-size: 1rem;
             color: var(--color-white);
@@ -54,7 +54,7 @@
             }
         }
 
-        .button {
+        &-button {
             border-radius: 7px;
             padding: .5rem 2rem;
             background-color: var(--color-button);
